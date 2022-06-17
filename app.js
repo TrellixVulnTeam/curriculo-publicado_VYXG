@@ -97,6 +97,7 @@ app.post('/updateLinguagem', urlencodedParser, (req, res) => {
 
 
 /* Inicia o servidor */
-app.listen(port, hostname, () => {
-	console.log(`BD server running at http://${hostname}:${port}/`);
-});
+app.listen(process.env.PORT, () => {
+	console.log(`Server running`);
+   });
+   
