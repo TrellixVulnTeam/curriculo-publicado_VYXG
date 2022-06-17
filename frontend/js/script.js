@@ -1,4 +1,4 @@
-var api = 'http://127.0.0.1:3061';
+var api = 'http://127.0.0.1:3071';
 
 window.onload = function () {
     $.get("/getDados", function (resultado) {

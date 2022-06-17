@@ -8,7 +8,7 @@ const sqlite3 = require('sqlite3').verbose();
 const app = express();
 const DBPATH = 'dbCurriculo.db';
 
-app.use(express.static("../frontend/"));
+app.use(express.static("frontend/"));
 
 app.use(express.json());
 
@@ -97,6 +97,6 @@ app.post('/updateLinguagem', urlencodedParser, (req, res) => {
 
 
 /* Inicia o servidor */
-app.listen(process.env.PORT, () => {
-	console.log(`Server running`);
-   });
+app.listen(port, hostname, () => {
+	console.log(`BD server running at http://${hostname}:${port}/`);
+});
