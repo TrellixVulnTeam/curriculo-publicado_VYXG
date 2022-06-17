@@ -1,0 +1,22 @@
+{
+    "name": "curriculo-gustavo-ferreira",
+    "version": "0.0.1",
+    "description": "Curriculo desenvolvido durante o segundo modulo, para a matéria de programação no INTELI.",
+    "scripts": {
+    "start": "node app.js"
+    },
+    "keywords": [
+    "example",
+    "heroku","inteli", "curriculo", "programação"
+    ],
+    "author": "Gustavo Ferreira de Oliveira",
+    "license": "Inteli",
+    "dependencies": {
+    "express": "^4.18.0",
+    "sqlite3": "^5.0.5"
+    },
+    "engines": {
+    "node": "16.14.0"
+    }
+   }
+   
