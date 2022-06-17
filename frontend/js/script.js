@@ -1,4 +1,4 @@
-var api = 'http://127.0.0.1:3071';
+var api = 'https://curriculo-gustavo-ferreira.herokuapp.com';
 
 window.onload = function () {
     $.get("/getDados", function (resultado) {
